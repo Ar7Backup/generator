@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Trabalho de IA </title>
+</head>
+<body>
+
+
+<h1>6x6 Binary Generator</h1>
+
+<table id="table" border="1" width="40%" height="500px">
+    <tr>
+        <td id="td0" onclick="content(this)" style="color:white">0</td>
+        <td id="td1" onclick="content(this)" style="color:white">0</td>
+        <td id="td2" onclick="content(this)" style="color:white">0</td>
+        <td id="td3" onclick="content(this)" style="color:white">0</td>
+        <td id="td4" onclick="content(this)" style="color:white">0</td>
+        <td id="td5" onclick="content(this)" style="color:white">0</td>
+    </tr>
+    <tr>
+        <td id="td6" onclick="content(this)" style="color:white">0</td>
+        <td id="td7" onclick="content(this)" style="color:white">0</td>
+        <td id="td8" onclick="content(this)" style="color:white">0</td>
+        <td id="td9" onclick="content(this)" style="color:white">0</td>
+        <td id="td10" onclick="content(this)" style="color:white">0</td>
+        <td id="td11" onclick="content(this)" style="color:white">0</td>
+    </tr>
+    <tr>
+        <td id="td12" onclick="content(this)" style="color:white">0</td>
+        <td id="td13" onclick="content(this)" style="color:white">0</td>
+        <td id="td14" onclick="content(this)" style="color:white">0</td>
+        <td id="td15" onclick="content(this)" style="color:white">0</td>
+        <td id="td16" onclick="content(this)" style="color:white">0</td>
+        <td id="td17" onclick="content(this)" style="color:white">0</td>
+    </tr>
+    <tr>
+        <td id="td18" onclick="content(this)" style="color:white">0</td>
+        <td id="td19" onclick="content(this)" style="color:white">0</td>
+        <td id="td20" onclick="content(this)" style="color:white">0</td>
+        <td id="td21" onclick="content(this)" style="color:white">0</td>
+        <td id="td22" onclick="content(this)" style="color:white">0</td>
+        <td id="td23" onclick="content(this)" style="color:white">0</td>
+    </tr>
+    <tr>
+        <td id="td24" onclick="content(this)" style="color:white">0</td>
+        <td id="td25" onclick="content(this)" style="color:white">0</td>
+        <td id="td26" onclick="content(this)" style="color:white">0</td>
+        <td id="td27" onclick="content(this)" style="color:white">0</td>
+        <td id="td28" onclick="content(this)" style="color:white">0</td>
+        <td id="td29" onclick="content(this)" style="color:white">0</td>
+    </tr>
+    <tr>
+        <td id="td30" onclick="content(this)" style="color:white">0</td>
+        <td id="td31" onclick="content(this)" style="color:white">0</td>
+        <td id="td32" onclick="content(this)" style="color:white">0</td>
+        <td id="td33" onclick="content(this)" style="color:white">0</td>
+        <td id="td34" onclick="content(this)" style="color:white">0</td>
+        <td id="td35" onclick="content(this)" style="color:white">0</td>
+    </tr>
+    </table>
+
+<p id="data"></p>
+<p id="um"></p>
+<p id="dois"></p>
+<p id="tres"></p>
+
+<div style="background-color: lightgrey;width:40%">
+<p>
+    % 1. Title: 1,2,3 Binary formatted numbers Database<br>
+    %<br>
+    % 2. Sources:<br>
+    %      (a) Creator: Eduardo Artioli<br>
+    %      (b) Date: November, 2018<br>
+    %<br><br>
+    @RELATION numeros<br><br>
+    @ATTRIBUTE bit0 numeric<br>
+    @ATTRIBUTE bit1 numeric<br>
+    @ATTRIBUTE bit2 numeric<br>
+    @ATTRIBUTE bit3 numeric<br>
+    @ATTRIBUTE bit4 numeric<br>
+    @ATTRIBUTE bit5 numeric<br>
+    @ATTRIBUTE bit6 numeric<br>
+    @ATTRIBUTE bit7 numeric<br>
+    @ATTRIBUTE bit8 numeric<br>
+    @ATTRIBUTE bit9 numeric<br>
+    @ATTRIBUTE bit10 numeric<br>
+    @ATTRIBUTE bit11 numeric<br>
+    @ATTRIBUTE bit12 numeric<br>
+    @ATTRIBUTE bit13 numeric<br>
+    @ATTRIBUTE bit14 numeric<br>
+    @ATTRIBUTE bit15 numeric<br>
+    @ATTRIBUTE bit16 numeric<br>
+    @ATTRIBUTE bit17 numeric<br>
+    @ATTRIBUTE bit18 numeric<br>
+    @ATTRIBUTE bit19 numeric<br>
+    @ATTRIBUTE bit20 numeric<br>
+    @ATTRIBUTE bit21 numeric<br>
+    @ATTRIBUTE bit22 numeric<br>
+    @ATTRIBUTE bit23 numeric<br>
+    @ATTRIBUTE bit24 numeric<br>
+    @ATTRIBUTE bit25 numeric<br>
+    @ATTRIBUTE bit26 numeric<br>
+    @ATTRIBUTE bit27 numeric<br>
+    @ATTRIBUTE bit28 numeric<br>
+    @ATTRIBUTE bit29 numeric<br>
+    @ATTRIBUTE bit30 numeric<br>
+    @ATTRIBUTE bit31 numeric<br>
+    @ATTRIBUTE bit32 numeric<br>
+    @ATTRIBUTE bit33 numeric<br>
+    @ATTRIBUTE bit34 numeric<br>
+    @ATTRIBUTE bit35 numeric<br>
+    @ATTRIBUTE class        {Numero-um,Numero-dois,Numero-tres}<br>
+   <br>
+    @DATA<br>
+    % Exemple:<br>  
+    % 1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,Numero-um<br>
+    % 0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,Numero-um<br>
+    % 0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,Numero-um<br>
+    % 0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,Numero-um<br>
+    % 0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,Numero-um<br>
+    % 0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,Numero-um<br>
+    % 0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,Numero-um<br>
+    
+     
+
+</p>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+
+        var bool = 0;
+    function content(elem)
+    {
+        if(elem.style.backgroundColor == "black"){
+            elem.style.backgroundColor = "white";
+            elem.style.color = "white";
+            elem.innerHTML = 0;
+            }else{
+            elem.style.backgroundColor = "black";
+            elem.style.color = "black";
+            elem.innerHTML = 1;
+            }
+            
+        var data = document.getElementById("data");
+        var text = "";
+
+        $( "td" ).each(function( index ) {
+            console.log( index + ": " + $( this ).text() );
+        text += $( this ).text() + ",";
+        }); 
+        data.innerHTML = "Data code : " + text.substring(0, text.length - 1);
+        um.innerHTML = "Se um : " + text + "Numero-um";
+        dois.innerHTML = "Se dois : " + text + "Numero-dois";
+        tres.innerHTML = "Se três : " + text + "Numero-tres";
+
+    }
+
+
+</script>
+
+</body>
+</html>
