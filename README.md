@@ -1,5 +1,6 @@
 # Web based dataset generator
 Simple project to help generating a dataset of binary values for characters expressed by a 6x6 matrix in black or white pixels.
+Can easily be accessed by link: https://eduardoartioli.github.io/generator/
 
 ## Usage
 ### Paint
