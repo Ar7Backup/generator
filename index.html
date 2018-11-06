@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title> Trabalho de IA </title>
+    <title> 6x6 Dataset Generator </title>
 </head>
 <body>
 
 
-<h1>6x6 Binary Generator</h1>
-
+<h1>Web based 6x6 Binary Generator</h1>
+<p>Open Source tool :
+<a href="https://github.com/EduardoArtioli/web-based-matrix-dataset-weka-arff">https://github.com/EduardoArtioli/web-based-matrix-dataset-weka-arff</a> </p>
+<br>
 <table id="table" border="1" width="40%" height="500px">
     <tr>
         <td id="td0" onclick="content(this)" style="color:white">0</td>
@@ -59,78 +61,113 @@
     </tr>
     </table>
 
+    <button onclick="clean()"> CLEAN </button>
+    <button onclick="addone()"> ADD ONE </button>
+    <button onclick="addtwo()"> ADD TWO </button>
+    <button onclick="addtree()"> ADD TREE </button>
+    <button onclick="addnone()"> ADD NONE </button>
+
 <p id="data"></p>
 <p id="um"></p>
 <p id="dois"></p>
 <p id="tres"></p>
 
-<div style="background-color: lightgrey;width:40%">
-<p>
-    % 1. Title: 1,2,3 Binary formatted numbers Database<br>
-    %<br>
-    % 2. Sources:<br>
-    %      (a) Creator: Eduardo Artioli<br>
-    %      (b) Date: November, 2018<br>
-    %<br><br>
-    @RELATION numeros<br><br>
-    @ATTRIBUTE bit0 numeric<br>
-    @ATTRIBUTE bit1 numeric<br>
-    @ATTRIBUTE bit2 numeric<br>
-    @ATTRIBUTE bit3 numeric<br>
-    @ATTRIBUTE bit4 numeric<br>
-    @ATTRIBUTE bit5 numeric<br>
-    @ATTRIBUTE bit6 numeric<br>
-    @ATTRIBUTE bit7 numeric<br>
-    @ATTRIBUTE bit8 numeric<br>
-    @ATTRIBUTE bit9 numeric<br>
-    @ATTRIBUTE bit10 numeric<br>
-    @ATTRIBUTE bit11 numeric<br>
-    @ATTRIBUTE bit12 numeric<br>
-    @ATTRIBUTE bit13 numeric<br>
-    @ATTRIBUTE bit14 numeric<br>
-    @ATTRIBUTE bit15 numeric<br>
-    @ATTRIBUTE bit16 numeric<br>
-    @ATTRIBUTE bit17 numeric<br>
-    @ATTRIBUTE bit18 numeric<br>
-    @ATTRIBUTE bit19 numeric<br>
-    @ATTRIBUTE bit20 numeric<br>
-    @ATTRIBUTE bit21 numeric<br>
-    @ATTRIBUTE bit22 numeric<br>
-    @ATTRIBUTE bit23 numeric<br>
-    @ATTRIBUTE bit24 numeric<br>
-    @ATTRIBUTE bit25 numeric<br>
-    @ATTRIBUTE bit26 numeric<br>
-    @ATTRIBUTE bit27 numeric<br>
-    @ATTRIBUTE bit28 numeric<br>
-    @ATTRIBUTE bit29 numeric<br>
-    @ATTRIBUTE bit30 numeric<br>
-    @ATTRIBUTE bit31 numeric<br>
-    @ATTRIBUTE bit32 numeric<br>
-    @ATTRIBUTE bit33 numeric<br>
-    @ATTRIBUTE bit34 numeric<br>
-    @ATTRIBUTE bit35 numeric<br>
-    @ATTRIBUTE class        {Numero-um,Numero-dois,Numero-tres}<br>
-   <br>
-    @DATA<br>
-    % Exemple:<br>  
-    % 1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,Numero-um<br>
-    % 0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,Numero-um<br>
-    % 0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,Numero-um<br>
-    % 0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,Numero-um<br>
-    % 0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,Numero-um<br>
-    % 0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,Numero-um<br>
-    % 0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,Numero-um<br>
-    
-     
-
-</p>
+<div id="datasetdiv" style="background-color: lightgrey;width:60%">
+<pre style="word-wrap: break-word; white-space: pre-wrap;" id="dataset">
+% 1. Title: 1,2,3 Binary formatted numbers Database &#013;
+% &#013;
+% 2. Info: &#013;
+%      This dataset was generated using a web based application. &#013;
+%      It is composed of binary data arranged by a 6x6 matrix. &#013;
+%      It was developed for the WEKA interface. &#013;
+%      This dataset aims to train a multilayer perceptron (MLP), deep artificial neural network. &#013;
+%      The goal is to recognize 1,2,3 characters expressed by a 6x6 matrix in black or white pixels. &#013;
+% &#013;
+% 3. Sources: &#013;
+%      (a) Creator: xxxxx xxxxx xxxx &#013;
+%      (b) Open source dataset generator tool: https://github.com/EduardoArtioli/generator &#013;
+%      (c) Web based tool creator: Eduardo Artioli , artioli1@hotmail.com &#013;
+%      (d) Review: Michael da Costa Mora &#013;
+%      (e) Date: November, 2018 &#013;
+&#013;
+@RELATION 6x6number &#013;
+&#013;
+@ATTRIBUTE bit0 {0,1} &#013;
+@ATTRIBUTE bit1 {0,1} &#013;
+@ATTRIBUTE bit2 {0,1} &#013;
+@ATTRIBUTE bit3 {0,1} &#013;
+@ATTRIBUTE bit4 {0,1} &#013;
+@ATTRIBUTE bit5 {0,1} &#013;
+@ATTRIBUTE bit6 {0,1} &#013;
+@ATTRIBUTE bit7 {0,1} &#013;
+@ATTRIBUTE bit8 {0,1} &#013;
+@ATTRIBUTE bit9 {0,1} &#013;
+@ATTRIBUTE bit10 {0,1} &#013;
+@ATTRIBUTE bit11 {0,1} &#013;
+@ATTRIBUTE bit12 {0,1} &#013;
+@ATTRIBUTE bit13 {0,1} &#013;
+@ATTRIBUTE bit14 {0,1} &#013;
+@ATTRIBUTE bit15 {0,1} &#013;
+@ATTRIBUTE bit16 {0,1} &#013;
+@ATTRIBUTE bit17 {0,1} &#013;
+@ATTRIBUTE bit18 {0,1} &#013;
+@ATTRIBUTE bit19 {0,1} &#013;
+@ATTRIBUTE bit20 {0,1} &#013;
+@ATTRIBUTE bit21 {0,1} &#013;
+@ATTRIBUTE bit22 {0,1} &#013;
+@ATTRIBUTE bit23 {0,1} &#013;
+@ATTRIBUTE bit24 {0,1} &#013;
+@ATTRIBUTE bit25 {0,1} &#013;
+@ATTRIBUTE bit26 {0,1} &#013;
+@ATTRIBUTE bit27 {0,1} &#013;
+@ATTRIBUTE bit28 {0,1} &#013;
+@ATTRIBUTE bit29 {0,1} &#013;
+@ATTRIBUTE bit30 {0,1} &#013;
+@ATTRIBUTE bit31 {0,1} &#013;
+@ATTRIBUTE bit32 {0,1} &#013;
+@ATTRIBUTE bit33 {0,1} &#013;
+@ATTRIBUTE bit34 {0,1} &#013;
+@ATTRIBUTE bit35 {0,1} &#013;
+@ATTRIBUTE class {Number-one,Number-two,Number-tree,None} &#013;
+&#013;
+@DATA &#013;
+% Exemple: &#013;
+&#013;
+% 1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,Number-one &#013;
+% 0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,Number-one &#013;
+% 0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,Number-one &#013;
+% 0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,Number-one &#013;
+% 0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,Number-one &#013;
+% 0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,Number-one &#013;
+% 0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,Number-one &#013;
+</pre>
 </div>
+
+
+<button type="button" id="download" onclick="downloadFile()">Download Arff File</button>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
 
-        var bool = 0;
+    function downloadFile(){
+    var textToSave = document.getElementById("dataset").textContent;
+    var hiddenElement = document.createElement('a');
+    hiddenElement.href = 'data:attachment/text,' + encodeURI(textToSave);
+   // hiddenElement.href = 'data:attachment/text,' + escape(textToSave);
+  //  hiddenElement.href = 'data:attachment/text,' + decodeURI();
+    hiddenElement.target = '_blank';
+    hiddenElement.download = 'dataset.arff';
+    hiddenElement.click();
+}
+
+    var bool = 0;
+    var onedata = "";
+    var twodata = "";
+    var treedata = "";
+    var nonedata = "";
+
     function content(elem)
     {
+        console.log(elem);
         if(elem.style.backgroundColor == "black"){
             elem.style.backgroundColor = "white";
             elem.style.color = "white";
@@ -145,14 +182,51 @@
         var text = "";
 
         $( "td" ).each(function( index ) {
-            console.log( index + ": " + $( this ).text() );
+        //    console.log( index + ": " + $( this ).text() );
+        text += $( this ).text() + ",";
+        }); 
+        data.innerHTML = "Data code : " + text.substring(0, text.length - 1);
+
+        onedata = text + "Number-one";
+        um.innerHTML = "Se um : " + onedata;
+
+        twodata = text + "Number-two";
+        dois.innerHTML = "Se dois : " + twodata;
+
+        treedata = text + "Number-tree";
+        tres.innerHTML = "Se três : " + treedata;
+
+        nonedata = text + "None"
+    }
+
+    function clean(){
+        $( "td" ).each(function( index ) {
+        //    console.log( index + ": " + $( this ).text() );
+        $( this ).html("0").css("background-color","white").css("color","white");
+        }); 
+        var text = "";
+
+        $( "td" ).each(function( index ) {
+        //    console.log( index + ": " + $( this ).text() );
         text += $( this ).text() + ",";
         }); 
         data.innerHTML = "Data code : " + text.substring(0, text.length - 1);
         um.innerHTML = "Se um : " + text + "Numero-um";
         dois.innerHTML = "Se dois : " + text + "Numero-dois";
         tres.innerHTML = "Se três : " + text + "Numero-tres";
-
+    }
+    
+    function addone(){        
+        dataset.textContent += onedata + "\r\n";
+    }
+    function addtwo(){        
+        dataset.textContent  += twodata + "\r\n";
+    }
+    function addtree(){        
+        dataset.textContent  += treedata + "\r\n";
+    }
+    function addnone(){        
+        dataset.textContent  += nonedata + "\r\n";
     }
 
 
