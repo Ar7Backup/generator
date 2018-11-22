@@ -1,0 +1,967 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.MultilayerPerceptron -L 0.01 -M 0.4 -N 1000 -V 0 -S 0 -E 20 -H a -G -R
+Relation:     6x6number
+Instances:    1671
+Attributes:   37
+              bit0
+              bit1
+              bit2
+              bit3
+              bit4
+              bit5
+              bit6
+              bit7
+              bit8
+              bit9
+              bit10
+              bit11
+              bit12
+              bit13
+              bit14
+              bit15
+              bit16
+              bit17
+              bit18
+              bit19
+              bit20
+              bit21
+              bit22
+              bit23
+              bit24
+              bit25
+              bit26
+              bit27
+              bit28
+              bit29
+              bit30
+              bit31
+              bit32
+              bit33
+              bit34
+              bit35
+              class
+Test mode:    split 66.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -1.9967360163454675
+    Node 4    -1.9243320487895181
+    Node 5    -3.2646198537788673
+    Node 6    -5.941940802504935
+    Node 7    -1.6444971365240613
+    Node 8    -6.021186285056953
+    Node 9    -3.028092187346851
+    Node 10    4.292558699860339
+    Node 11    -1.2581506969459477
+    Node 12    3.8935020580978916
+    Node 13    2.397230401390287
+    Node 14    -1.8556299653020274
+    Node 15    3.3676401233094753
+    Node 16    -1.5791631855588588
+    Node 17    3.0032095270662214
+    Node 18    -7.04687716909751
+    Node 19    6.347818642840258
+    Node 20    -5.021251485995066
+    Node 21    -2.458327006328559
+    Node 22    -1.4412666652381825
+    Node 23    0.2798575423008467
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -1.6858592534156889
+    Node 4    -2.6187424861164854
+    Node 5    -2.702970138828522
+    Node 6    -0.20055009640406118
+    Node 7    -3.46074724086306
+    Node 8    2.043811484279248
+    Node 9    4.584338873222268
+    Node 10    -0.6066315568249886
+    Node 11    -2.8139378275598244
+    Node 12    0.04251949773218511
+    Node 13    -1.1969614942906972
+    Node 14    -3.1572865891099293
+    Node 15    2.0579229186881243
+    Node 16    3.755260313562078
+    Node 17    0.5014111788912755
+    Node 18    1.7045984476996725
+    Node 19    -2.2471159618140772
+    Node 20    -1.7783751731360513
+    Node 21    0.01634806336816333
+    Node 22    2.1858143675217354
+    Node 23    -5.7356331362965225
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -1.5865099211986764
+    Node 4    -1.0520072379475502
+    Node 5    3.4056694327811425
+    Node 6    1.8564020783166808
+    Node 7    -2.523914460832171
+    Node 8    3.4925027884263544
+    Node 9    -2.57577015156348
+    Node 10    -4.249722866235808
+    Node 11    -2.320994720702721
+    Node 12    -2.144009225128939
+    Node 13    1.369328778739216
+    Node 14    -2.4514524438086513
+    Node 15    0.9613195374891345
+    Node 16    -3.268465205452374
+    Node 17    1.412434193698072
+    Node 18    -2.7424120628332402
+    Node 19    -4.827179163682022
+    Node 20    -1.8589660868998499
+    Node 21    -4.479169938502143
+    Node 22    4.211572688195721
+    Node 23    4.348236977125022
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -1.4131537906269052
+    Node 4    4.132440383412613
+    Node 5    1.757739171708536
+    Node 6    4.686530273186408
+    Node 7    3.8391888314418257
+    Node 8    -1.637490865521689
+    Node 9    -1.175002687352403
+    Node 10    -0.0061669141757037015
+    Node 11    2.8497527784130092
+    Node 12    -2.916849836215089
+    Node 13    -3.6887764840943666
+    Node 14    4.511060851427662
+    Node 15    -4.775572386838449
+    Node 16    0.37592477502593064
+    Node 17    -3.9346646999795927
+    Node 18    5.1204485369075
+    Node 19    -4.084547037814654
+    Node 20    5.963661220825705
+    Node 21    4.4327674726805455
+    Node 22    -3.195062489390439
+    Node 23    -0.09643199443120107
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    0.3819044460720493
+    Attrib bit0=1    0.5613043635838164
+    Attrib bit1=1    0.9140168498139821
+    Attrib bit2=1    0.7715429401345514
+    Attrib bit3=1    -0.3363660036407234
+    Attrib bit4=1    -0.004552584568626494
+    Attrib bit5=1    0.8327837006656075
+    Attrib bit6=1    1.6447121808203624
+    Attrib bit7=1    1.308223651222872
+    Attrib bit8=1    -0.03314343146215627
+    Attrib bit9=1    0.6086299059030876
+    Attrib bit10=1    0.06088051670704286
+    Attrib bit11=1    -0.2187966993298637
+    Attrib bit12=1    0.5496207279533574
+    Attrib bit13=1    -0.09796585666579266
+    Attrib bit14=1    -0.5887819526576457
+    Attrib bit15=1    -0.4928523390001073
+    Attrib bit16=1    -0.5282937755198995
+    Attrib bit17=1    -0.3884567042002131
+    Attrib bit18=1    0.3864551213534356
+    Attrib bit19=1    -1.1512024646754204
+    Attrib bit20=1    0.1818596656888154
+    Attrib bit21=1    0.28336857518526526
+    Attrib bit22=1    0.8889895228082267
+    Attrib bit23=1    0.9303133816556581
+    Attrib bit24=1    -0.681683483765323
+    Attrib bit25=1    -0.3232870188454909
+    Attrib bit26=1    1.2815836622189503
+    Attrib bit27=1    -0.7495626524478722
+    Attrib bit28=1    0.6944932158354933
+    Attrib bit29=1    0.8773919955669913
+    Attrib bit30=1    -0.6214471043826644
+    Attrib bit31=1    0.9982340827492532
+    Attrib bit32=1    0.23258284149268987
+    Attrib bit33=1    -1.089739597231195
+    Attrib bit34=1    0.036198725749891275
+    Attrib bit35=1    -0.3000189179508219
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    -0.20588739653203458
+    Attrib bit0=1    0.040104042734388216
+    Attrib bit1=1    0.7836083411917519
+    Attrib bit2=1    0.6342269464170186
+    Attrib bit3=1    0.22367140942195626
+    Attrib bit4=1    -0.9388805297185427
+    Attrib bit5=1    -0.6994024620014638
+    Attrib bit6=1    1.3617929193572291
+    Attrib bit7=1    1.002276907513876
+    Attrib bit8=1    -0.8333032922293603
+    Attrib bit9=1    0.04731322045314878
+    Attrib bit10=1    1.4319309696024598
+    Attrib bit11=1    0.3064909081693457
+    Attrib bit12=1    0.57523417209494
+    Attrib bit13=1    0.5402803139910215
+    Attrib bit14=1    0.5465692311341476
+    Attrib bit15=1    -0.21385983308599657
+    Attrib bit16=1    -1.5253074153299606
+    Attrib bit17=1    0.7871571251955701
+    Attrib bit18=1    -0.3233558658810116
+    Attrib bit19=1    -0.3264075598192318
+    Attrib bit20=1    -0.7286594993221265
+    Attrib bit21=1    1.3485394171631753
+    Attrib bit22=1    1.634659414620249
+    Attrib bit23=1    -0.16705720945601463
+    Attrib bit24=1    -1.4062491638204793
+    Attrib bit25=1    -0.4034565829319751
+    Attrib bit26=1    0.19212336063764454
+    Attrib bit27=1    0.28489884756013645
+    Attrib bit28=1    0.43602735719869273
+    Attrib bit29=1    0.12017179818773568
+    Attrib bit30=1    0.1732355080499564
+    Attrib bit31=1    0.7187040331454608
+    Attrib bit32=1    0.6638062454264435
+    Attrib bit33=1    -0.6068149049983652
+    Attrib bit34=1    -0.8164660317688109
+    Attrib bit35=1    -0.2544471982578848
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -0.3884755205739661
+    Attrib bit0=1    1.3602099941912775
+    Attrib bit1=1    -1.6408095885484224
+    Attrib bit2=1    -0.46457598972177355
+    Attrib bit3=1    -0.5366655479188598
+    Attrib bit4=1    2.893196106679069
+    Attrib bit5=1    -0.853409838234034
+    Attrib bit6=1    1.6573318731431423
+    Attrib bit7=1    -0.8902545338139255
+    Attrib bit8=1    1.8416502543038296
+    Attrib bit9=1    -1.8864253572909493
+    Attrib bit10=1    0.7620980576537981
+    Attrib bit11=1    -1.6713258143435483
+    Attrib bit12=1    1.3003651026669687
+    Attrib bit13=1    -1.636081483061451
+    Attrib bit14=1    -0.7171772172763151
+    Attrib bit15=1    -0.4914955285552719
+    Attrib bit16=1    1.978678091418698
+    Attrib bit17=1    -0.6497565198151344
+    Attrib bit18=1    1.2776128403245246
+    Attrib bit19=1    -1.445981603008862
+    Attrib bit20=1    -0.8118309886683903
+    Attrib bit21=1    -0.288768283132235
+    Attrib bit22=1    1.5099292634296324
+    Attrib bit23=1    -1.367999468840437
+    Attrib bit24=1    1.6799218964674856
+    Attrib bit25=1    -1.6674654098905424
+    Attrib bit26=1    -0.6418762887708357
+    Attrib bit27=1    -1.2332242242172116
+    Attrib bit28=1    0.748914546948604
+    Attrib bit29=1    -1.0363955005353311
+    Attrib bit30=1    1.8712324013841186
+    Attrib bit31=1    -0.8087230847012241
+    Attrib bit32=1    -0.9253001459962797
+    Attrib bit33=1    -1.2565862539590857
+    Attrib bit34=1    1.5841818236640743
+    Attrib bit35=1    -1.212979462108845
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    0.5580205414877352
+    Attrib bit0=1    0.4138685804275156
+    Attrib bit1=1    -0.20563332792777103
+    Attrib bit2=1    -0.678943896716344
+    Attrib bit3=1    0.7841335143728079
+    Attrib bit4=1    0.9578238197827429
+    Attrib bit5=1    1.6796488286353741
+    Attrib bit6=1    2.487649362496138
+    Attrib bit7=1    0.9868367318582153
+    Attrib bit8=1    0.20299906928905148
+    Attrib bit9=1    1.2215877647092213
+    Attrib bit10=1    0.4342600214076695
+    Attrib bit11=1    -0.26415082125913963
+    Attrib bit12=1    0.5855018722291384
+    Attrib bit13=1    -0.41999334713609104
+    Attrib bit14=1    -0.015182793619431773
+    Attrib bit15=1    0.597383498400136
+    Attrib bit16=1    -0.06557929588247383
+    Attrib bit17=1    -0.6562524133178539
+    Attrib bit18=1    0.9270087805634961
+    Attrib bit19=1    0.05505010569087538
+    Attrib bit20=1    0.33465947701035303
+    Attrib bit21=1    0.35945656536138354
+    Attrib bit22=1    -0.4396044622780029
+    Attrib bit23=1    0.4194132702565451
+    Attrib bit24=1    -0.20857544926059898
+    Attrib bit25=1    -0.09009892782607985
+    Attrib bit26=1    0.8191440116608478
+    Attrib bit27=1    0.3958347000653344
+    Attrib bit28=1    0.20832808397417216
+    Attrib bit29=1    0.21640434293007613
+    Attrib bit30=1    -0.14329354069608438
+    Attrib bit31=1    0.22526771983993868
+    Attrib bit32=1    0.08242031442127681
+    Attrib bit33=1    0.7900090557799196
+    Attrib bit34=1    0.8506253239608438
+    Attrib bit35=1    -0.4713968531095285
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    0.20082588852305727
+    Attrib bit0=1    0.5596993258821484
+    Attrib bit1=1    0.8464323860665102
+    Attrib bit2=1    0.5281075749559175
+    Attrib bit3=1    2.0735641447441036
+    Attrib bit4=1    0.2727266366452141
+    Attrib bit5=1    0.12027759156991183
+    Attrib bit6=1    1.350565424025545
+    Attrib bit7=1    -0.6643185150980226
+    Attrib bit8=1    -0.05865244114814621
+    Attrib bit9=1    -2.4660388873317767
+    Attrib bit10=1    -0.4386988690220563
+    Attrib bit11=1    2.055561199005715
+    Attrib bit12=1    -0.844783403174847
+    Attrib bit13=1    -0.16742900326462837
+    Attrib bit14=1    0.8076524953440157
+    Attrib bit15=1    0.9698824949765413
+    Attrib bit16=1    1.2816374780800557
+    Attrib bit17=1    -1.1943472365595522
+    Attrib bit18=1    -0.788392983017043
+    Attrib bit19=1    0.9731534914590378
+    Attrib bit20=1    0.12614554744538434
+    Attrib bit21=1    0.23631254376108587
+    Attrib bit22=1    0.010568139253246085
+    Attrib bit23=1    1.3305852236870943
+    Attrib bit24=1    1.9468912449676699
+    Attrib bit25=1    -1.626178201895899
+    Attrib bit26=1    0.4239931585289995
+    Attrib bit27=1    0.3307508963931787
+    Attrib bit28=1    1.125607143740267
+    Attrib bit29=1    -0.686666752952517
+    Attrib bit30=1    0.7581760468523989
+    Attrib bit31=1    0.7129123536067977
+    Attrib bit32=1    -0.32947669478051506
+    Attrib bit33=1    0.5507991818763338
+    Attrib bit34=1    0.3965059855170392
+    Attrib bit35=1    -1.5223241943638042
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    0.5814825647558144
+    Attrib bit0=1    0.5347952904532962
+    Attrib bit1=1    0.004323246559997362
+    Attrib bit2=1    0.4666118722774245
+    Attrib bit3=1    0.6056301950116234
+    Attrib bit4=1    0.8519661115750071
+    Attrib bit5=1    -0.18502828144731454
+    Attrib bit6=1    -1.2729006869081936
+    Attrib bit7=1    -0.5328278198592289
+    Attrib bit8=1    0.4266438267055352
+    Attrib bit9=1    0.634474270265858
+    Attrib bit10=1    1.1547393069926428
+    Attrib bit11=1    0.7627392739196229
+    Attrib bit12=1    -0.5967861711379748
+    Attrib bit13=1    0.15705051346326218
+    Attrib bit14=1    -0.19936973328806393
+    Attrib bit15=1    1.2540158563610269
+    Attrib bit16=1    -0.18995370102923867
+    Attrib bit17=1    1.4613077632451172
+    Attrib bit18=1    0.8769355067565419
+    Attrib bit19=1    -0.4744793703128822
+    Attrib bit20=1    2.1230480390791584
+    Attrib bit21=1    -0.9883766229329987
+    Attrib bit22=1    0.4273303078088351
+    Attrib bit23=1    0.5076715622631687
+    Attrib bit24=1    -0.22626113482646412
+    Attrib bit25=1    1.7754259657222744
+    Attrib bit26=1    0.2637733032205863
+    Attrib bit27=1    0.40590949810396715
+    Attrib bit28=1    0.09136385078703954
+    Attrib bit29=1    0.2823027037241588
+    Attrib bit30=1    -0.8450272330545179
+    Attrib bit31=1    -0.44754688206963716
+    Attrib bit32=1    0.37765286847016494
+    Attrib bit33=1    0.38244940052586524
+    Attrib bit34=1    0.9426220408602557
+    Attrib bit35=1    0.9406397121373213
+Sigmoid Node 10
+    Inputs    Weights
+    Threshold    -0.055735692300443895
+    Attrib bit0=1    0.577599153052937
+    Attrib bit1=1    -0.6934078863520293
+    Attrib bit2=1    -1.333539112261635
+    Attrib bit3=1    0.11634516494852915
+    Attrib bit4=1    -1.5928515502589387
+    Attrib bit5=1    0.33541594691124693
+    Attrib bit6=1    -0.21663534451334426
+    Attrib bit7=1    -1.1607083065916386
+    Attrib bit8=1    0.6962943640562116
+    Attrib bit9=1    -1.4024833795287561
+    Attrib bit10=1    0.8960576231129089
+    Attrib bit11=1    -0.9725167630738547
+    Attrib bit12=1    0.1908043558761149
+    Attrib bit13=1    0.22454140158872957
+    Attrib bit14=1    -0.2953467109547064
+    Attrib bit15=1    -0.12412273957204391
+    Attrib bit16=1    -0.6466282154448818
+    Attrib bit17=1    -2.328429769474428
+    Attrib bit18=1    -0.03137699604018718
+    Attrib bit19=1    -0.15607350961423813
+    Attrib bit20=1    -0.7566337957647268
+    Attrib bit21=1    -1.0777737523630155
+    Attrib bit22=1    -0.9851448316164828
+    Attrib bit23=1    0.13453117511048884
+    Attrib bit24=1    0.80749423219359
+    Attrib bit25=1    -0.7373029697629885
+    Attrib bit26=1    0.9867215533666557
+    Attrib bit27=1    -0.9177092831105265
+    Attrib bit28=1    0.1324917927365102
+    Attrib bit29=1    -1.1554429564120505
+    Attrib bit30=1    0.8127289867843944
+    Attrib bit31=1    -0.8967446376761494
+    Attrib bit32=1    -1.1517265496713462
+    Attrib bit33=1    0.5453828253217007
+    Attrib bit34=1    -0.4583810906138769
+    Attrib bit35=1    -0.19595711927903117
+Sigmoid Node 11
+    Inputs    Weights
+    Threshold    0.2595989735421005
+    Attrib bit0=1    0.8863387630791639
+    Attrib bit1=1    0.25217823745828577
+    Attrib bit2=1    1.2289911184356328
+    Attrib bit3=1    0.07845283191063487
+    Attrib bit4=1    0.24692333315637013
+    Attrib bit5=1    0.9029878541501605
+    Attrib bit6=1    1.266049432157014
+    Attrib bit7=1    1.009315242491253
+    Attrib bit8=1    0.2681823195140052
+    Attrib bit9=1    0.7264113893960218
+    Attrib bit10=1    0.28965854329962243
+    Attrib bit11=1    -0.30876108769721866
+    Attrib bit12=1    0.5887160832698692
+    Attrib bit13=1    -0.3524725203701101
+    Attrib bit14=1    0.3635102996043258
+    Attrib bit15=1    -0.2004031995283662
+    Attrib bit16=1    0.25853531013819553
+    Attrib bit17=1    -0.4928953072710915
+    Attrib bit18=1    0.21783133429391313
+    Attrib bit19=1    -0.20370542716046466
+    Attrib bit20=1    0.45143154839851435
+    Attrib bit21=1    0.6743474366760617
+    Attrib bit22=1    0.43265071731197485
+    Attrib bit23=1    0.518519808783335
+    Attrib bit24=1    -0.5246337183975195
+    Attrib bit25=1    0.4460727241370918
+    Attrib bit26=1    0.9481538883394565
+    Attrib bit27=1    -0.6879911729450652
+    Attrib bit28=1    -0.047381793707465696
+    Attrib bit29=1    0.8215689630662749
+    Attrib bit30=1    -0.34519890451713225
+    Attrib bit31=1    0.8690416470967879
+    Attrib bit32=1    0.27970834136800643
+    Attrib bit33=1    -0.3151650242369482
+    Attrib bit34=1    0.47708052071942464
+    Attrib bit35=1    0.07583354701582933
+Sigmoid Node 12
+    Inputs    Weights
+    Threshold    -0.15061923119504086
+    Attrib bit0=1    -1.056189555012559
+    Attrib bit1=1    -1.4086398647436464
+    Attrib bit2=1    -1.3068809435322273
+    Attrib bit3=1    -0.7574063420353172
+    Attrib bit4=1    -1.677360215754461
+    Attrib bit5=1    -0.09311865717659765
+    Attrib bit6=1    -0.052465161660841045
+    Attrib bit7=1    -0.05799153200582859
+    Attrib bit8=1    -0.05987096895396
+    Attrib bit9=1    -0.6191663040202228
+    Attrib bit10=1    0.9285874346218745
+    Attrib bit11=1    0.061173773034270205
+    Attrib bit12=1    0.17417294586164256
+    Attrib bit13=1    1.6572536609393345
+    Attrib bit14=1    1.5925545352657176
+    Attrib bit15=1    1.3094851088371389
+    Attrib bit16=1    0.6107456585593334
+    Attrib bit17=1    0.1408952323408219
+    Attrib bit18=1    0.1331593326900327
+    Attrib bit19=1    0.5312673918189947
+    Attrib bit20=1    -0.05556603758275929
+    Attrib bit21=1    0.1739358381282367
+    Attrib bit22=1    0.11610945458197111
+    Attrib bit23=1    -0.6598397046057086
+    Attrib bit24=1    0.24628489635851925
+    Attrib bit25=1    -0.644485144044861
+    Attrib bit26=1    1.2158707779968008
+    Attrib bit27=1    -0.572964986052749
+    Attrib bit28=1    -1.4901769718077418
+    Attrib bit29=1    -1.5377682896405116
+    Attrib bit30=1    1.1418414366302525
+    Attrib bit31=1    0.39202865767449274
+    Attrib bit32=1    -2.225059076413165
+    Attrib bit33=1    -1.2146075504863452
+    Attrib bit34=1    -0.29413600944431373
+    Attrib bit35=1    0.06201698696948094
+Sigmoid Node 13
+    Inputs    Weights
+    Threshold    -0.008913335139741648
+    Attrib bit0=1    -0.4355237743186174
+    Attrib bit1=1    -0.3629784829345368
+    Attrib bit2=1    -1.634915832684863
+    Attrib bit3=1    -0.8965776135340855
+    Attrib bit4=1    -0.599260410715501
+    Attrib bit5=1    -0.6353069670675582
+    Attrib bit6=1    -0.24060062076858552
+    Attrib bit7=1    0.34930541505138163
+    Attrib bit8=1    -0.6843311486622613
+    Attrib bit9=1    -2.075075284884939
+    Attrib bit10=1    -1.108225894548326
+    Attrib bit11=1    -0.44530252004513987
+    Attrib bit12=1    -1.2600709397907817
+    Attrib bit13=1    -0.9678798772437566
+    Attrib bit14=1    -0.47790216614518466
+    Attrib bit15=1    1.2286989309680663
+    Attrib bit16=1    0.6814121115304111
+    Attrib bit17=1    -0.23311369948410485
+    Attrib bit18=1    -1.0680220891110415
+    Attrib bit19=1    -1.3783861763968746
+    Attrib bit20=1    0.797714527646464
+    Attrib bit21=1    0.09645517731326606
+    Attrib bit22=1    0.4894267186173372
+    Attrib bit23=1    -0.7272290516595327
+    Attrib bit24=1    0.7828555459547305
+    Attrib bit25=1    0.2354576507928375
+    Attrib bit26=1    0.2637572312258587
+    Attrib bit27=1    -0.22378339839923267
+    Attrib bit28=1    0.10476734218429952
+    Attrib bit29=1    0.06775455621749543
+    Attrib bit30=1    0.14682418447015572
+    Attrib bit31=1    0.8981419817207854
+    Attrib bit32=1    -0.08497944719031691
+    Attrib bit33=1    0.9532699140044614
+    Attrib bit34=1    0.008338283236595094
+    Attrib bit35=1    -0.05154385588176016
+Sigmoid Node 14
+    Inputs    Weights
+    Threshold    0.6171380444950144
+    Attrib bit0=1    0.05593107142530762
+    Attrib bit1=1    0.2911139199202615
+    Attrib bit2=1    -0.7346769809139023
+    Attrib bit3=1    0.1012564374193462
+    Attrib bit4=1    0.7976713266923973
+    Attrib bit5=1    1.8315969949378101
+    Attrib bit6=1    2.1552609149331174
+    Attrib bit7=1    0.8111427278630189
+    Attrib bit8=1    -0.17949099854712258
+    Attrib bit9=1    0.7478130789129974
+    Attrib bit10=1    0.6001900659543175
+    Attrib bit11=1    -0.024105811544345795
+    Attrib bit12=1    0.8113623591639819
+    Attrib bit13=1    -0.5611289176524819
+    Attrib bit14=1    -0.1365962180942595
+    Attrib bit15=1    0.7469795994449717
+    Attrib bit16=1    -0.5085103291834232
+    Attrib bit17=1    -1.1736240618533231
+    Attrib bit18=1    2.054093854063829
+    Attrib bit19=1    -0.4177533179096329
+    Attrib bit20=1    0.8411623645210732
+    Attrib bit21=1    0.40348005263199305
+    Attrib bit22=1    -0.06777598289718824
+    Attrib bit23=1    0.4838531113434825
+    Attrib bit24=1    -0.4060171395815884
+    Attrib bit25=1    -0.1113773677515713
+    Attrib bit26=1    1.4166380524611388
+    Attrib bit27=1    0.4286149497433117
+    Attrib bit28=1    0.4417573960360534
+    Attrib bit29=1    0.297228944499783
+    Attrib bit30=1    0.2704978603091975
+    Attrib bit31=1    0.21205010458584475
+    Attrib bit32=1    0.8064209140803513
+    Attrib bit33=1    -0.17704842727022216
+    Attrib bit34=1    1.283746089038372
+    Attrib bit35=1    -0.4262781443382685
+Sigmoid Node 15
+    Inputs    Weights
+    Threshold    -1.5162757850733397
+    Attrib bit0=1    1.521136185983908
+    Attrib bit1=1    0.5372658155071737
+    Attrib bit2=1    0.864638727746702
+    Attrib bit3=1    -0.10308319072517563
+    Attrib bit4=1    -0.36977255084240146
+    Attrib bit5=1    -0.807790807632425
+    Attrib bit6=1    1.8739821720175394
+    Attrib bit7=1    2.2742187401246534
+    Attrib bit8=1    -0.43358998140273747
+    Attrib bit9=1    -1.1247453986048859
+    Attrib bit10=1    -0.5575991938643127
+    Attrib bit11=1    -0.13436401149388746
+    Attrib bit12=1    0.7958461749173642
+    Attrib bit13=1    -0.25353755174881093
+    Attrib bit14=1    0.2945437185950197
+    Attrib bit15=1    0.47914460653617
+    Attrib bit16=1    -0.022454460858642323
+    Attrib bit17=1    0.2819344591139014
+    Attrib bit18=1    1.4539552222193672
+    Attrib bit19=1    -0.42236581875439516
+    Attrib bit20=1    0.07264593475425633
+    Attrib bit21=1    -0.05465856169459936
+    Attrib bit22=1    -0.9088356136138714
+    Attrib bit23=1    -0.7007428105680487
+    Attrib bit24=1    0.7765932164011529
+    Attrib bit25=1    0.1390763739483992
+    Attrib bit26=1    -0.20871252469132526
+    Attrib bit27=1    -0.5747555148318215
+    Attrib bit28=1    -0.36996848054111736
+    Attrib bit29=1    -1.0776924662157832
+    Attrib bit30=1    0.7620182584603338
+    Attrib bit31=1    0.10046946317350945
+    Attrib bit32=1    0.3542362814822269
+    Attrib bit33=1    0.8462145220412932
+    Attrib bit34=1    -0.19459741320864182
+    Attrib bit35=1    -0.8968827455280277
+Sigmoid Node 16
+    Inputs    Weights
+    Threshold    -0.46038981340391394
+    Attrib bit0=1    -0.4840395132457202
+    Attrib bit1=1    -0.8116096384315208
+    Attrib bit2=1    0.6086820940984571
+    Attrib bit3=1    -0.42741356950550186
+    Attrib bit4=1    -0.5510689381563321
+    Attrib bit5=1    -0.12443825422502276
+    Attrib bit6=1    -0.508839346889668
+    Attrib bit7=1    -3.6020166774776755E-4
+    Attrib bit8=1    -0.15144845625087602
+    Attrib bit9=1    -0.2498652128176779
+    Attrib bit10=1    -0.8637009456912448
+    Attrib bit11=1    -0.8523562008090687
+    Attrib bit12=1    -0.4448639130366923
+    Attrib bit13=1    -1.2274922752337651
+    Attrib bit14=1    1.2099284439170015
+    Attrib bit15=1    -0.5659850970659505
+    Attrib bit16=1    0.22861450525314925
+    Attrib bit17=1    0.28500710785808214
+    Attrib bit18=1    -0.26577025771794954
+    Attrib bit19=1    0.27802867795643826
+    Attrib bit20=1    0.4810582259396847
+    Attrib bit21=1    0.16505034620705072
+    Attrib bit22=1    -0.08923469831854107
+    Attrib bit23=1    -0.18850459979697623
+    Attrib bit24=1    1.170627123201454
+    Attrib bit25=1    1.337805823458671
+    Attrib bit26=1    0.20497631577604034
+    Attrib bit27=1    2.1087567346501372
+    Attrib bit28=1    -0.3075482746369976
+    Attrib bit29=1    -0.29747379301660654
+    Attrib bit30=1    -1.1909271485160808
+    Attrib bit31=1    0.14035969956353167
+    Attrib bit32=1    -0.024139943927739577
+    Attrib bit33=1    0.47012673757222123
+    Attrib bit34=1    -0.3226164900004447
+    Attrib bit35=1    1.0746830454019622
+Sigmoid Node 17
+    Inputs    Weights
+    Threshold    -0.34881118271156264
+    Attrib bit0=1    -0.3260311771147928
+    Attrib bit1=1    -0.45106840073423754
+    Attrib bit2=1    0.807450032954981
+    Attrib bit3=1    -0.49425814373427285
+    Attrib bit4=1    0.19631477512274292
+    Attrib bit5=1    0.79100120082976
+    Attrib bit6=1    0.21812673541839298
+    Attrib bit7=1    -0.4713651932337836
+    Attrib bit8=1    1.844582375516261
+    Attrib bit9=1    -0.11874304807140014
+    Attrib bit10=1    -1.2905767438554634
+    Attrib bit11=1    1.9907616852710959
+    Attrib bit12=1    -1.7723574586616375
+    Attrib bit13=1    -1.3999075714878502
+    Attrib bit14=1    0.9970445092120541
+    Attrib bit15=1    1.3075780149887162
+    Attrib bit16=1    -0.7618600711024974
+    Attrib bit17=1    0.6725952301503434
+    Attrib bit18=1    -0.32922901688091183
+    Attrib bit19=1    -0.21316914238816304
+    Attrib bit20=1    1.2189285336942774
+    Attrib bit21=1    0.8621550522524776
+    Attrib bit22=1    -0.49429650136685716
+    Attrib bit23=1    0.013239778078069829
+    Attrib bit24=1    -0.44140474367251914
+    Attrib bit25=1    -0.9564517976159954
+    Attrib bit26=1    0.45235450709544023
+    Attrib bit27=1    -0.7295352126455975
+    Attrib bit28=1    1.0932931183797343
+    Attrib bit29=1    -0.4903102342418201
+    Attrib bit30=1    -0.4706689967161187
+    Attrib bit31=1    0.15363370926832642
+    Attrib bit32=1    1.4032724606793665
+    Attrib bit33=1    0.19438160505929555
+    Attrib bit34=1    1.1169778039306322
+    Attrib bit35=1    -0.5412060170376674
+Sigmoid Node 18
+    Inputs    Weights
+    Threshold    -0.2486873717336416
+    Attrib bit0=1    0.4455627721286635
+    Attrib bit1=1    1.0627472857970737
+    Attrib bit2=1    -1.5673159603755222
+    Attrib bit3=1    -1.0917693265694728
+    Attrib bit4=1    -0.3098616599745301
+    Attrib bit5=1    -0.791612282372661
+    Attrib bit6=1    0.27054126291896735
+    Attrib bit7=1    1.3870472186822307
+    Attrib bit8=1    -1.9074575745286328
+    Attrib bit9=1    -1.1122542035868177
+    Attrib bit10=1    0.496026996568744
+    Attrib bit11=1    -0.06150465074837902
+    Attrib bit12=1    1.9946299642161471
+    Attrib bit13=1    1.7020057407906888
+    Attrib bit14=1    -0.660128467381463
+    Attrib bit15=1    0.1679973795490994
+    Attrib bit16=1    -0.9342710730321665
+    Attrib bit17=1    -1.674916034555712
+    Attrib bit18=1    2.3297210709691667
+    Attrib bit19=1    1.1339544866358764
+    Attrib bit20=1    -1.8829946922984995
+    Attrib bit21=1    -0.3060850658037256
+    Attrib bit22=1    -0.058203743948229206
+    Attrib bit23=1    -1.2879193420969088
+    Attrib bit24=1    1.347657808883627
+    Attrib bit25=1    2.6923820463275536
+    Attrib bit26=1    -2.4406621842289677
+    Attrib bit27=1    -2.0586715577275863
+    Attrib bit28=1    -0.8631025954886333
+    Attrib bit29=1    0.8581884531437849
+    Attrib bit30=1    0.70452138442563
+    Attrib bit31=1    0.1866890944665649
+    Attrib bit32=1    -0.19745168532679055
+    Attrib bit33=1    -0.6148717652249601
+    Attrib bit34=1    -1.2419888399266474
+    Attrib bit35=1    0.24898357384706463
+Sigmoid Node 19
+    Inputs    Weights
+    Threshold    -1.116244028292903
+    Attrib bit0=1    0.397548325564947
+    Attrib bit1=1    0.322246831868826
+    Attrib bit2=1    0.338350988721042
+    Attrib bit3=1    -1.8176382277953875
+    Attrib bit4=1    0.33277954375565194
+    Attrib bit5=1    -0.20430029665592533
+    Attrib bit6=1    1.7717170660418815
+    Attrib bit7=1    1.3600210852632582
+    Attrib bit8=1    -1.4347757444131763
+    Attrib bit9=1    -0.7673865461933183
+    Attrib bit10=1    2.17256213187907
+    Attrib bit11=1    -2.330825635384408
+    Attrib bit12=1    0.36634419107495875
+    Attrib bit13=1    0.5279448854044242
+    Attrib bit14=1    -1.2428451956985136
+    Attrib bit15=1    -1.1701290557042687
+    Attrib bit16=1    0.5888236512723207
+    Attrib bit17=1    -0.6530832930357228
+    Attrib bit18=1    1.0545932693042404
+    Attrib bit19=1    1.1301965391236861
+    Attrib bit20=1    -1.9480271165109904
+    Attrib bit21=1    -0.5920458097198966
+    Attrib bit22=1    1.0928437488466693
+    Attrib bit23=1    0.4134914713256465
+    Attrib bit24=1    1.4700688667626962
+    Attrib bit25=1    1.2075986279439144
+    Attrib bit26=1    -1.5356209734196364
+    Attrib bit27=1    -1.2670447362426627
+    Attrib bit28=1    1.3431259889786114
+    Attrib bit29=1    0.930281444465714
+    Attrib bit30=1    0.20672223322393282
+    Attrib bit31=1    0.6926147187493279
+    Attrib bit32=1    -0.7909824381421592
+    Attrib bit33=1    -1.6612506041220598
+    Attrib bit34=1    -0.10857979267065303
+    Attrib bit35=1    1.2134692340586062
+Sigmoid Node 20
+    Inputs    Weights
+    Threshold    0.21692850344425463
+    Attrib bit0=1    0.04190125067969853
+    Attrib bit1=1    -0.6223162807443693
+    Attrib bit2=1    -1.1238579079551094
+    Attrib bit3=1    -0.9333746041820036
+    Attrib bit4=1    -0.19474699386566374
+    Attrib bit5=1    0.1083390665329858
+    Attrib bit6=1    0.650479243789335
+    Attrib bit7=1    0.9886919781307267
+    Attrib bit8=1    -0.14084772838435075
+    Attrib bit9=1    0.7648004230807488
+    Attrib bit10=1    -0.6509420814164604
+    Attrib bit11=1    -0.40230240212715496
+    Attrib bit12=1    -0.3249930289116936
+    Attrib bit13=1    -0.1588880788685567
+    Attrib bit14=1    -0.7306637192866848
+    Attrib bit15=1    0.2278459081790133
+    Attrib bit16=1    0.8511186474220852
+    Attrib bit17=1    0.6925733454160015
+    Attrib bit18=1    1.785843198558259
+    Attrib bit19=1    -0.25561323617311954
+    Attrib bit20=1    0.3369695000942515
+    Attrib bit21=1    0.018976435905677894
+    Attrib bit22=1    -0.838454072163168
+    Attrib bit23=1    2.2941734025322695
+    Attrib bit24=1    1.066547328400154
+    Attrib bit25=1    0.1921342097220088
+    Attrib bit26=1    2.1841076418205514
+    Attrib bit27=1    1.4507203444111034
+    Attrib bit28=1    0.9460563158927213
+    Attrib bit29=1    0.8547932099330887
+    Attrib bit30=1    0.9439459369100838
+    Attrib bit31=1    -0.19411940480667625
+    Attrib bit32=1    1.570195579396954
+    Attrib bit33=1    1.9262944712719916
+    Attrib bit34=1    -0.7498684293397662
+    Attrib bit35=1    0.030279324869561933
+Sigmoid Node 21
+    Inputs    Weights
+    Threshold    1.6336393007187806
+    Attrib bit0=1    -0.9231713582009498
+    Attrib bit1=1    1.7251374694795651
+    Attrib bit2=1    0.4934263544811119
+    Attrib bit3=1    -1.241676689155337
+    Attrib bit4=1    -1.2817807824049319
+    Attrib bit5=1    0.6250645810166883
+    Attrib bit6=1    -0.9677595587191495
+    Attrib bit7=1    0.6810388608392702
+    Attrib bit8=1    -0.0713998186940444
+    Attrib bit9=1    0.4593586544035928
+    Attrib bit10=1    -1.5319835671179294
+    Attrib bit11=1    0.6613249290706383
+    Attrib bit12=1    -1.0691165884825278
+    Attrib bit13=1    0.6737095626929512
+    Attrib bit14=1    0.7190814915103088
+    Attrib bit15=1    0.7747203071207741
+    Attrib bit16=1    -0.8202616918802452
+    Attrib bit17=1    0.3459107104878253
+    Attrib bit18=1    -1.7573324387903875
+    Attrib bit19=1    1.1993396010003061
+    Attrib bit20=1    1.4268723827280796
+    Attrib bit21=1    0.7511921821399522
+    Attrib bit22=1    -2.014329292450873
+    Attrib bit23=1    -0.9972536915908137
+    Attrib bit24=1    0.07303276932892269
+    Attrib bit25=1    0.48371394133408585
+    Attrib bit26=1    0.7720415191505134
+    Attrib bit27=1    0.506478140059628
+    Attrib bit28=1    -0.5768035964449716
+    Attrib bit29=1    -0.2554108108035082
+    Attrib bit30=1    -0.5729262345397161
+    Attrib bit31=1    0.3235450586763306
+    Attrib bit32=1    -0.1646824978418508
+    Attrib bit33=1    -0.11126453026383534
+    Attrib bit34=1    -0.4553416931004348
+    Attrib bit35=1    -0.3707128986105007
+Sigmoid Node 22
+    Inputs    Weights
+    Threshold    -2.0615855561123437
+    Attrib bit0=1    0.6293261919788063
+    Attrib bit1=1    1.0656180565615074
+    Attrib bit2=1    -0.3819353618590465
+    Attrib bit3=1    0.9486172839268026
+    Attrib bit4=1    -1.1671115035742814
+    Attrib bit5=1    -1.4017616147935155
+    Attrib bit6=1    0.05642833978235176
+    Attrib bit7=1    0.9610055842968677
+    Attrib bit8=1    0.5922068738311649
+    Attrib bit9=1    -0.05961998345581926
+    Attrib bit10=1    2.184622476839107
+    Attrib bit11=1    -0.45814541466033537
+    Attrib bit12=1    -0.34445731628009174
+    Attrib bit13=1    0.07583202696235229
+    Attrib bit14=1    -0.09656493296473988
+    Attrib bit15=1    0.4569784843403536
+    Attrib bit16=1    -0.25757412791316486
+    Attrib bit17=1    -0.8258474310005345
+    Attrib bit18=1    -0.18152381972981352
+    Attrib bit19=1    0.7312066039397492
+    Attrib bit20=1    0.4582504255939841
+    Attrib bit21=1    -0.36282118915892825
+    Attrib bit22=1    0.26542390524041987
+    Attrib bit23=1    -0.05324802792989531
+    Attrib bit24=1    0.39624130907079547
+    Attrib bit25=1    0.5499026450336224
+    Attrib bit26=1    -0.013748533891258002
+    Attrib bit27=1    0.8733174188917078
+    Attrib bit28=1    0.24780824194125606
+    Attrib bit29=1    -0.9446956261581854
+    Attrib bit30=1    -0.14391605805949276
+    Attrib bit31=1    1.496564812205627
+    Attrib bit32=1    0.3717055662050044
+    Attrib bit33=1    1.0265597920429002
+    Attrib bit34=1    -1.559624528777115
+    Attrib bit35=1    -0.9322265729296142
+Sigmoid Node 23
+    Inputs    Weights
+    Threshold    0.29979958193487616
+    Attrib bit0=1    -0.41889843818971806
+    Attrib bit1=1    -0.1929139674443549
+    Attrib bit2=1    0.24336753054298196
+    Attrib bit3=1    -0.7712820517050882
+    Attrib bit4=1    -0.06895972033282659
+    Attrib bit5=1    -0.6879724645764972
+    Attrib bit6=1    -0.3693778789899927
+    Attrib bit7=1    -1.2573657391151696
+    Attrib bit8=1    -0.2640728048274547
+    Attrib bit9=1    -0.7843651683260487
+    Attrib bit10=1    -0.43563215104994385
+    Attrib bit11=1    -1.7319160210235252
+    Attrib bit12=1    -0.44791918351211085
+    Attrib bit13=1    1.0932484671950278
+    Attrib bit14=1    -0.4598887514103378
+    Attrib bit15=1    0.20882526875765273
+    Attrib bit16=1    -0.5217763211604542
+    Attrib bit17=1    -1.2248565861274643
+    Attrib bit18=1    -0.35415879497573977
+    Attrib bit19=1    -0.7110717579113136
+    Attrib bit20=1    -0.2045528377952259
+    Attrib bit21=1    -0.36612129159278844
+    Attrib bit22=1    -0.8586715878838711
+    Attrib bit23=1    -0.3763710658857074
+    Attrib bit24=1    -1.4899550206760388
+    Attrib bit25=1    -0.7576457638626891
+    Attrib bit26=1    1.2223968877810638
+    Attrib bit27=1    0.6753230508242541
+    Attrib bit28=1    2.368015265888592
+    Attrib bit29=1    2.982787226965595
+    Attrib bit30=1    -0.5233914488863929
+    Attrib bit31=1    -0.42940690571567736
+    Attrib bit32=1    -0.5220336175212263
+    Attrib bit33=1    0.11714168217254674
+    Attrib bit34=1    -0.2569275202690675
+    Attrib bit35=1    0.15115450251242776
+Class Number-one
+    Input
+    Node 0
+Class Number-two
+    Input
+    Node 1
+Class Number-tree
+    Input
+    Node 2
+Class None
+    Input
+    Node 3
+
+
+Time taken to build model: 28.35 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         539               94.8944 %
+Incorrectly Classified Instances        29                5.1056 %
+Kappa statistic                          0.9263
+Mean absolute error                      0.045 
+Root mean squared error                  0.1461
+Relative absolute error                 13.0382 %
+Root relative squared error             35.0749 %
+Total Number of Instances              568     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,972    0,031    0,934      0,972    0,953      0,931    0,989     0,962     Number-one
+                 0,837    0,006    0,923      0,837    0,878      0,870    0,945     0,888     Number-two
+                 0,984    0,009    0,968      0,984    0,976      0,969    0,995     0,991     Number-tree
+                 0,933    0,029    0,955      0,933    0,944      0,908    0,987     0,985     None
+Weighted Avg.    0,949    0,023    0,949      0,949    0,949      0,926    0,986     0,972     
+
+=== Confusion Matrix ===
+
+   a   b   c   d   <-- classified as
+ 171   1   0   4 |   a = Number-one
+   0  36   2   5 |   b = Number-two
+   0   1 122   1 |   c = Number-tree
+  12   1   2 210 |   d = None
+
