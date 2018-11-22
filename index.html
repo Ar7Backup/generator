@@ -64,7 +64,7 @@
     <button onclick="clean()"> CLEAN </button>
     <button onclick="addone()"> ADD ONE </button>
     <button onclick="addtwo()"> ADD TWO </button>
-    <button onclick="addtree()"> ADD TREE </button>
+    <button onclick="addthree()"> ADD THREE </button>
     <button onclick="addnone()"> ADD NONE </button>
 
 <p id="data"></p>
@@ -128,7 +128,7 @@
 @ATTRIBUTE bit33 {0,1} &#013;
 @ATTRIBUTE bit34 {0,1} &#013;
 @ATTRIBUTE bit35 {0,1} &#013;
-@ATTRIBUTE class {Number-one,Number-two,Number-tree,None} &#013;
+@ATTRIBUTE class {Number-one,Number-two,Number-three,None} &#013;
 &#013;
 @DATA &#013;
 % Exemple: &#013;
@@ -162,7 +162,7 @@
     var bool = 0;
     var onedata = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,None";
     var twodata = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,None";
-    var treedata = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,None";
+    var threedata = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,None";
     var nonedata = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,None";
 
     function content(elem)
@@ -193,8 +193,8 @@
         twodata = text + "Number-two";
         dois.innerHTML = "Se dois : " + twodata;
 
-        treedata = text + "Number-tree";
-        tres.innerHTML = "Se três : " + treedata;
+        threedata = text + "Number-three";
+        tres.innerHTML = "Se três : " + threedata;
 
         nonedata = text + "None"
     }
@@ -217,7 +217,7 @@
             
         onedata = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,None";
         twodata = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,None";
-        treedata = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,None";
+        threedata = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,None";
         nonedata = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,None";
     }
     
@@ -227,8 +227,8 @@
     function addtwo(){        
         dataset.textContent  += twodata + "\r\n";
     }
-    function addtree(){        
-        dataset.textContent  += treedata + "\r\n";
+    function addthree(){        
+        dataset.textContent  += threedata + "\r\n";
     }
     function addnone(){        
         dataset.textContent  += nonedata + "\r\n";
