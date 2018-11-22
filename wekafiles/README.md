@@ -1,5 +1,4 @@
 # Weka Files.
-
 ##Configuration used:
 weka.classifiers.functions.MultilayerPerceptron -L 0.01 -M 0.4 -N 1000 -V 0 -S 0 -E 20 -H a -G -R
 
