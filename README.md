@@ -3,8 +3,8 @@ Simple project to help generating a dataset of binary values for characters expr
 Can easily be accessed by link: https://eduardoartioli.github.io/generator/
 
 ## Usage
-### Paint
-The idea is simple, click on the boxes of the matrix forming the desired character.
+
+Click on the boxes of the matrix forming the desired character.
 As soon as you click, you will see the data being generated.
 
 ### Inserting the data into the dataset
